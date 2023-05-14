@@ -1,0 +1,21 @@
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 200px;
+  border-bottom: 1px solid rgb(196, 196, 196);
+}
+
+.box button {
+  background-color: rgb(237, 237, 237);
+  color: gray;
+  box-shadow: 0px 1px 1px 0px gray;
+  border: none;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
+.box button:hover{
+  color: rgb(67, 67, 67);
+  background-color: rgb(202, 199, 199);
+}
